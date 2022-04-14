@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon{ 
+  @apply text-gray-500 hover:text-white
+}
