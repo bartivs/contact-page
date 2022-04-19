@@ -15,7 +15,7 @@ const IndexPage = () => {
     const timer = setTimeout(() => {
       if (!!Icon) setGradient(true)
       else setGradient(false)
-    }, 1000)
+    }, 500)
 
     return () => clearTimeout(timer)
   }, [Icon])
