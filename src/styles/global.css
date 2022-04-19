@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .icon{ 
-  @apply text-gray-500 hover:text-white
+  @apply text-gray-500 hover:text-white transition-colors
 }
